@@ -1,0 +1,101 @@
+@charset "UTF-8";
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+
+.content {
+	text-align:center;
+}
+.background {
+	background-image: url(../images/ringo.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 420px;
+	padding-top: 20px;
+	height:500px;
+}
+.error {
+	border: 1px solid ##FC3D3D;
+	border-radius: 5px;
+	background-color: #FE6060;
+	padding: 5px;
+	width: auto;
+	font-weight: bold;
+
+
+}
+.login {
+	padding-top: 150px;
+	color: white;
+	font-weight: bold;
+}
+img {
+	width: 300px;
+}
+.title_img {
+	height:30px;
+	width: auto;
+	margin: 0 10px 0 10px;
+}
+
+
+.to_cart_button {
+	padding: 5px 10xp 5px 10px;
+
+}
+
+
+table {
+	display: inline;
+	border-collapse:collapse;
+}
+table tr td {
+	border: 1px solid grey;
+	padding: 10px 30px 10px 30px;
+
+}
+.noborder_table tr td {
+	border: 0px solid grey;
+}
+.show_table tr td {
+	border: 1px #000000 solid;
+	padding: 10px 30px 10px 30px;
+}
+
+.show_table tr th {
+	border: 1px #000000 solid;
+	background: #dc143c;
+  	color: #ffffff;
+ 	padding: 10px 30px 10px 30px;
+}
+
+
+
+.cart_table {
+	padding: 10px 30px 10px 30px;
+}
+
+.cart_table tr th {
+	border: 1px solid grey;
+	background: #dc143c;
+  	color: #ffffff;
+	padding: 10px 30px 10px 30px;
+}
+
+.search_table {
+	display: inline;
+}
+
+.commit_table {
+	padding: 10px 30px 10px 30px;
+}
+
+.commit_table tr th {
+	border: 1px solid grey;
+	background: #dc143c;
+  	color: #ffffff;
+	padding: 10px 30px 10px 30px;
+}
